@@ -10,8 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Session;
 
 Route::get('/','HomeController@index')->name('home');
+Route::get('/local/{language}',function ($language) {
+    Session::put('local',$language);
+    return back();
+})->name('local');
+
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');

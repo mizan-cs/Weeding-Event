@@ -8,7 +8,7 @@
                         <div class='digit'></div>
                         <div class='digit'></div>
                         <div class='digit'></div>
-                        <p class='note dash_title'>Days</p>
+                        <p class='note dash_title'>@lang('countdown.days')</p>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                     <div class="wrapper-digit">
                         <div class='digit'></div>
                         <div class='digit'></div>
-                        <p class='note dash_title'>Hours</p>
+                        <p class='note dash_title'>@lang('countdown.hours')</p>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                     <div class="wrapper-digit">
                         <div class=' digit'></div>
                         <div class=' digit'></div>
-                        <p class='note dash_title'>Minutes</p>
+                        <p class='note dash_title'>@lang('countdown.minutes')</p>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <div class="wrapper-digit">
                         <div class=' digit'></div>
                         <div class=' digit'></div>
-                        <p class='note dash_title'>Seconds</p>
+                        <p class='note dash_title'>@lang('countdown.seconds')</p>
                     </div>
                 </div>
             </div>
