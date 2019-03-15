@@ -24,7 +24,7 @@
                         <div class="frame">
                             <img src="images/home/announcement/frame.png" alt="Frame">
                             <img src="images/home/announcement/hover-frame.png" alt="Hover Frame" class="hover-frame">
-                            <img src="{{'/storage/'.setting('couple.the_groom')}}" alt="Romeo">
+                            <img src="{{asset('/storage/'.setting('couple.the_groom'))}}" alt="Romeo">
                         </div>
                         <h3>@lang('couple.groom-name')</h3>
                         <h4>@lang('couple.the-groom')</h4>
@@ -37,7 +37,7 @@
                         <div class="frame">
                             <img src="images/home/announcement/frame.png" alt="Frame">
                             <img src="images/home/announcement/hover-frame.png" alt="Hover Frame" class="hover-frame">
-                            <img src="{{'/storage/'.setting('couple.bride')}}" alt="Juli">
+                            <img src="{{asset('/storage/'.setting('couple.bride'))}}" alt="Juli">
 
                         </div>
                         <h3>@lang('couple.bride-name')</h3>
