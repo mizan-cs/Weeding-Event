@@ -129,7 +129,7 @@
                 @if(App::isLocale('en'))
                     <div class="row">
                         <div class="col col-md-5">
-                            <img src="images/home/event/img-1.jpg" alt="Event Picture" class="img img-responsive">
+                            <img src="{{asset('storage/'.$activitie->image)}}" alt="Event Picture" class="img img-responsive">
                         </div>
                         <div class="col col-md-7">
                             <h3>{{$activitie->en_title}}</h3>
